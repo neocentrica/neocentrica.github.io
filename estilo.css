@@ -1,6 +1,9 @@
-body {background-color: gold; margin: 0 auto; text-align: center; font-family: "Arial Black", Gadget, sans-serif;}
+body {width: 100%; background-color: gold; margin: 0 auto; text-align: center; font-family: "Arial Black", Gadget, sans-serif;}
 
 a {text-decoration: none; color: black;}
 
 
 
+@media screen and (max-width: 600px) {
+ 
+}
