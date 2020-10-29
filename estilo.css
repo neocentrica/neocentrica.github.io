@@ -19,7 +19,10 @@ h2 {text-align: center;}
 div {text-align: justify; margin: 5%;}
 
 
-ul {text-align: justify; margin-left: 35%;}
+ul {text-align: justify; margin-left: 30%; list-style-type: none;}
+.icon-n {font-size: 30px;}
+.icon-e {font-size: 30px;}
+.icon-o {font-size: 30px;}
 
 
 
