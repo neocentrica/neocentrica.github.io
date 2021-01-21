@@ -11,7 +11,7 @@ img {width: 500px;}
 
 
 header{grid-area: header;}
-main{grid-area: main; display: grid; grid-template-columns: 1fr 1fr 1fr; }
+main{grid-area: main; display: flex; }
 footer{grid-area: footer;}
 
 h2 {text-align: center;}
