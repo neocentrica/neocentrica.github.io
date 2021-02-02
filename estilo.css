@@ -11,15 +11,15 @@ img {width: 500px;}
 
 
 header{grid-area: header;}
-main{grid-area: main; display: flex; }
+main{grid-area: main; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; }
 footer{grid-area: footer;}
 
 h2 {text-align: center;}
 
-div {text-align: justify; margin: 5%;}
+div {box-sizing: border-box; padding: 15px;}
 
 
-ul {text-align: justify; margin-left: 30%; list-style-type: none;}
+ul { list-style-type: none;}
 .icon-n {font-size: 30px;}
 .icon-e {font-size: 30px;}
 .icon-o {font-size: 30px;}
@@ -28,5 +28,5 @@ ul {text-align: justify; margin-left: 30%; list-style-type: none;}
 
 @media screen and (max-width: 600px) {
  img{width: 98%;}
- main {grid-template-columns: 1fr;}
+ main {grid-template-columns: 1fr; display: block;}
 }
