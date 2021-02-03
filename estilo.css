@@ -6,8 +6,8 @@ grid: display;
 }
 
 a {text-decoration: none; color: black;}
-
-img {width: 500px;}
+header{display: flex;}
+img {height: 500px;}
 
 
 header{grid-area: header;}
@@ -26,7 +26,7 @@ ul { list-style-type: none;}
 
 
 
-@media screen and (max-width: 600px) {
- img{width: 98%;}
+@media screen and (max-width: 600px) {header{display: block;}
+ .img{width: 98%; height: auto;}
  main {grid-template-columns: 1fr; display: block;}
 }
