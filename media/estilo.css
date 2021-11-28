@@ -1,0 +1,8 @@
+body {background-color: #FFDB58; margin: 0 auto; text-align: center; font-family: 'Passion One', cursive; user-select: none;}
+nav {color: black; cursor: default; font-size: 3em;}
+h1{font-size: 3em;}
+h2{font-size: 2.5em;}
+
+@media screen and (max-width: 900px){ 
+    img{width: 98%;}
+}
