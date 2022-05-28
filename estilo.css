@@ -2,7 +2,7 @@ body { background-color: #FFCC00 ;  font-family: 'Passion One', cursive; display
 }
 
 a { color: black;}
-#corp {display: none; margin-top: 200px;}
+#corp {display: none; margin-top: 100px;}
 #cor {width: 370px;}
 header{text-align: center; display: block;}
 nav {display: grid; grid-template-columns: 370px repeat(4, 1fr); cursor: pointer;}
@@ -26,7 +26,7 @@ h4{font-size: 1.5em;}
 
 
 #media {display: none; font-size: 2em; text-align: center;}
-#lem {font-size: 1.5em; margin-bottom: 300px;}
+#lem {font-size: 1.5em; margin-bottom: 400px;}
 button{background-color: #FFCC00; color: black; border: none; font-family: 'Passion One', cursive; font-size: 2em; margin-bottom: 80px;}
 #who {display: none; font-family: Helvetica, sans-serif;}
 #que {display: none; font-family: Helvetica, sans-serif;}
