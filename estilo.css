@@ -1,22 +1,18 @@
-body { background-color: #FFDB58 ;  font-family: 'Passion One', cursive; display: block; 
+body { background-color: #FFCC00 ;font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 a { color: black;}
-#corp {display: none; margin-top: 100px;}
+#corp {display: none; margin-top: 200px;}
 #cor {width: 370px;}
 header{text-align: center; display: block;}
 nav {display: grid; grid-template-columns: 370px repeat(4, 1fr); cursor: pointer;}
-main {font-size: 1.7em; font-family: Helvetica, sans-serif; text-align: center; height: 124px;}
-h1 {text-align: center; font-size: 2.3em;}
-h2 {text-align: center; font-size: 2.5em; margin-left: 60px;}
-h3 {text-align: center; font-size: 5em;}
-h4{font-size: 1.5em;}
+main {text-align: center; }
+footer{position: relative;}
 
-#news{display: grid; grid-template-columns: repeat(4, 1fr); font-family: Helvetica, sans-serif; font-size: 1.5em;}
-#plus {text-decoration: none; font-size: 5em; font-family: 'Passion One', cursive; }
-.uno { border-left: solid black 2px;}
-.noti {margin-left: 10px;}
-.date {font-style: italic; font-size: small; font-family: monospace; margin-left: 20px;}
+h1 {text-align: center; font-size: 24px; }
+h2 {text-align: center; font-size: 36px; }
+h3 {text-align: center; font-size: 30px;}
+h4 {text-align: center; font-size: 48px;}
 
 .tabPanel {display: none;}
 [data-tab-content] {display: none;
@@ -24,24 +20,20 @@ h4{font-size: 1.5em;}
 .active[data-tab-content] {display: block;
 }
 
-
-#media {display: none; font-size: 2em; text-align: center;}
-#lem {font-size: 1.5em; margin-bottom: 400px;}
-button{background-color: #FFDB58; color: black; border: none; font-family: 'Passion One', cursive; font-size: 2em; margin-bottom: 80px;}
-#who {display: none; font-family: Helvetica, sans-serif;}
-#que {display: none; font-family: Helvetica, sans-serif;}
-#vis {display: none; font-family: Helvetica, sans-serif;}
-#val {display: none; font-family: Helvetica, sans-serif;}
+#media {display: none;  text-align: center; font-family: 'Fira Sans Extra Condensed', sans-serif;}
+#lem {margin-bottom: 300px;}
+button {background-color: #FFCC00; color: black; border: none; margin-bottom: 50px; font-family: 'Fira Sans Extra Condensed', sans-serif;}
+#who {display: none; }
+#que {display: none; }
+#vis {display: none; }
+#val {display: none; }
 
 @media screen and (max-width: 600px) {
-body {width: 98%;}
 #cor {display: none;}
 #corp {display: block; width: 99%;}
 nav {display: none;}
 main {display: none;}
 footer {display: none;}
-#act {display: none;}
 #media {display: block;}
-#news{display: block; font-family: Helvetica, sans-serif;}
-.uno { border-left: solid black 2px;}
+#new {display: block;}
 }
