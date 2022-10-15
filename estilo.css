@@ -1,4 +1,4 @@
-body { background-color: #FFCC00 ;font-family: 'Fira Sans Extra Condensed', sans-serif;
+body { background-color: #FFDB58 ;font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 a { color: black;}
@@ -22,7 +22,7 @@ h4 {text-align: center; font-size: 48px;}
 
 #media {display: none;  text-align: center; font-family: 'Fira Sans Extra Condensed', sans-serif;}
 #lem {margin-bottom: 300px;}
-button {background-color: #FFCC00; color: black; border: none; margin-bottom: 50px; font-family: 'Fira Sans Extra Condensed', sans-serif;}
+button {background-color: #FFDB58; color: black; border: none; margin-bottom: 50px; font-family: 'Fira Sans Extra Condensed', sans-serif;}
 #who {display: none; }
 #que {display: none; }
 #vis {display: none; }
