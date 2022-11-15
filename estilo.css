@@ -2,7 +2,7 @@ body { background-color: #FFDB58 ;font-family: 'Fira Sans Extra Condensed', sans
 }
 
 a { color: black;}
-#corp {display: none; margin-top: 200px;}
+#corp {display: none; margin-top: 180px;}
 #cor {width: 370px;}
 header{text-align: center; display: block;}
 nav {display: grid; grid-template-columns: 370px repeat(4, 1fr); cursor: pointer;}
