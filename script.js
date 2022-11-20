@@ -1,5 +1,3 @@
-
-
 function openNav() {
   document.getElementById("mySidepanel").style.width = "320px";
 }
