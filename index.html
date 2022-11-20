@@ -4,57 +4,51 @@
     <title>corporación neocéntrica</title>
     <meta name="description" content="lo hacemos real">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/png" href="img/favco.png">
     <link rel="stylesheet" href="iconos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-   
-    <nav>
-        <header data-tab-target="#ini">
-        <img src="img/newneo.png" id="cor">
-        <h1>lo hacemos real</h1>  
-        </header>
+    <header>
+        <img src="img/newneo.png">   
+        <button id="openbtn" onclick="openNav()"><div class="w"></div><div class="w"></div></button>
+        <div class="topnav" id="myTopnav">
+            <button onclick="med()"><h1>Media</h1></button>
+            <button onclick="abo()"><h1>Sobre nosotros</h1></button> 
+        </div>
         
-        <h2 data-tab-target="#qui">Quiénes somos</h2>
-        <h2 data-tab-target="#mi">Misión</h2>
-        <h2 data-tab-target="#vi">Visión</h2>
-        <h2 data-tab-target="#va">Valores</h2>
-        </nav>
+        <div id="mySidepanel" class="sidepanel">
+            <p><button onclick="med(), closeNav()"><h1>Media</h1></button></p>
+            <p><button onclick="abo(), closeNav()"><h1>Sobre nosotros</h1></button></p>
+            <button class="closebtn" onclick="closeNav()"><h1>&times;</h1></button> 
+        </div>
+    </header>
+
+    <div id="lem"><h1>lo hacemos real</h1></div>
+
+    <div id="med">
+            <div class="bra"><h2>para ver</h2><h1><a href="https://neocentrica.github.io/cinesmofilms/">cinesmo films</a></h1><h2>películas aún no hechas</h2></div>
+            <div class="bra"><h2>para enterarse</h2><h1><a href="https://revistaanalema.wordpress.com/">revista analema</a></h1><h2>sobre un sinfín de cosas</h2></div>
+            <div class="bra"><h2>para vestir</h2><h1><a href="https://neocentrica.github.io/mortajas/">mortajas</a></h1><h2>nadie nos usa, a todos les gusta</h2></div>
+            <div class="bra"><h2>para comer</h2><h1><a href="https://neocentrica.github.io/topopizza/">topo pizza</a></h1><h2>a luca</h2></div>
+            <div class="bra"><h2>para facilitar</h2><h1><a href="https://neocentrica.github.io/maquinassimples/">máquinas simples</a></h1><h2>soluciones ingeniosas</h2></div>
+            <div class="bra"><h2>para jugar</h2><h1><a href="https://neocentrica.github.io/interactiverib/">interactive rib</a></h1><h2>ni con el último termina</h2></div>
+            <div class="bra"><h2>para escuchar</h2><h1><a href="https://neocentrica.github.io/maplab/">map lab.</a></h1><h2>no sound, only noise</h2></div>
+            <a class="pre" onclick="arr(-1)">&#10094;</a><a class="pos" onclick="arr(1)">&#10095;</a>
+    </div>
+
+    <div id="abo">
+        <button onclick="who()"><h1>Quiénes somos</h1></button><div id="who"><h2>La corporación es una empresa de capital inversión que opera en colombia con poca trayectoria pero una gran proyección al impulso de nuevos pequeños emprendimientos.<p>Puede escribirnos al correo electrónico neocentrica@gmail.com</p></h2></div><br>
+        <button onclick="que()"><h1>Misión</h1></button><div id="que"><h2>Nos proponemos impulsar proyectos para sostener un ciclo de inversión cuando los ya iniciados generen nuevos recursos para poner a disposicíon.</h2></div><br>
+        <button onclick="vis()"><h1>Visión</h1></button><div id="vis"><h2>Queremos ser referentes en el incentivo de propuestas creativas en el territorio.</h2></div><br>
+        <button onclick="val()"><h1>Valores</h1></button><div id="val"><h2>Nihilismo<br>Entropía<br>Omnidireccional</h2></div>  
+    </div>
+
     
-    
-    <main>
-        <span id="ini" data-tab-content></span>
-        <div id="qui" data-tab-content><h3>Somos una empresa de capital inversión colombiana con poca trayectoria pero una gran proyección al impulso de nuevos pequeños emprendimientos.<p>Puede escribirnos al correo electrónico neocentrica@gmail.com</p></h3></div>
-        <div id="mi" data-tab-content><h3>Nos proponemos impulsar proyectos para sostener un ciclo de inversión cuando los ya iniciados generen nuevos recursos para poner a disposición.</h3></div>
-        <div id="vi" data-tab-content><h3>Queremos ser referentes en el incentivo de propuestas creativas en el territorio.</h3></div>
-        <div id="va" data-tab-content><h3>Nihilismo<br>Entropía<br>Omnidireccional</h3></div>
-    </main>
-
-    <footer>
-        <h4><a href="https://neocentrica.github.io/media/">explore nuestros sitios</a></h4>
-    </footer>
-
-    
-
-<!--mediain-->
-    <div id="media">
-        <img src="img/newneoneo.png" id="corp">
-        <div id="lem"><h1>lo hacemos real</h1></div>
-        <button onclick="who()"><h2>Quiénes somos</h2></button><div id="who"><h3>Somos una empresa de capital inversión colombiana con poca trayectoria pero una gran proyección al impulso de nuevos pequeños emprendimientos.<p>Puede escribirnos al correo electrónico neocentrica@gmail.com</p></h3></div><br>
-        <button onclick="que()"><h2>Misión</h2></button><div id="que"><h3>Nos proponemos impulsar proyectos para sostener un ciclo de inversión cuando los ya iniciados generen nuevos recursos para poner a disposición.</h3></div><br>
-        <button onclick="vis()"><h2>Visión</h2></button><div id="vis"><h3>Queremos ser referentes en el incentivo de propuestas creativas en el territorio.</h3></div><br>
-        <button onclick="val()"><h2>Valores</h2></button><div id="val"><h3>Nihilismo<br>Entropía<br>Omnidireccional</h3></div>
-        <h4><a href="https://neocentrica.github.io/media/">explore nuestros sitios</a></h4>
-
-        
-        
-</div>
-<!--mediaout-->
-
-<script src="pri.js"></script>
+      
+<script src="seg.js"></script>
 </body>
 </html>
