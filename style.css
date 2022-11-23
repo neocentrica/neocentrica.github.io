@@ -1,7 +1,3 @@
-* {
-    -webkit-tap-highlight-color: transparent;
-}
-
 body{ background-color: #FFDB58 ; font-family: 'Josefin Sans', sans-serif; margin: 0 auto; text-align: center; width: 75%;}
 
 a{color: black; font-size: 48px;}
@@ -15,7 +11,7 @@ h2 {font-size: 26px; margin: 5px;}
     margin: 6px 0; 
   }
 
-  button {background-color:#FFDB58;  border: none; cursor: pointer; font-family: 'Josefin Sans', sans-serif; font-size: 30px;}
+  button {background-color:#FFDB58;  color: black; border: none; cursor: pointer; font-family: 'Josefin Sans', sans-serif; font-size: 30px;}
   
   header {display: flex; box-sizing: border-box; padding: 20px; margin-bottom: 80px; justify-content: center;}
 
